@@ -31,6 +31,12 @@ public class ParseNumbersInFile {
 		System.out.println("Average = " + average);
 
 		//Get the highest and lowest number.
+		Integer min = Collections.min(numbers);
+		System.out.println("Min = " + min);
+		
+		//Get the highest and lowest number.
+		Integer max = Collections.max(numbers);
+		System.out.println("Max = " + max);
 
 	}
 
