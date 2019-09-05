@@ -9,12 +9,15 @@ import java.util.Scanner;
 public class ReadFileAndCreateWordsList {
 
 	public static void main(String[] args) {
+		
 		Scanner scan = null;
+		
 		try {
 			scan = new Scanner(new File("/Users/ry/git/JavaPrograms/JavaPrograms/src/lists/textfile.txt"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+		
 		ArrayList<String> words = new ArrayList<String>();
 		
 		while (scan.hasNext()) {
@@ -23,9 +26,7 @@ public class ReadFileAndCreateWordsList {
 		}
 		
 		System.out.println(words);
-		
-		
-
+	
 	}
 
 }
