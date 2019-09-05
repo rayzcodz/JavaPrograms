@@ -19,7 +19,7 @@ public class ParseNumbersInFile {
 			numbers.add(number);
 		}
 		
-		System.out.println(numbers);
+		System.out.println("Numbers in file = " + numbers);
 		
 		//Get the average of the numbers
 		int sum = 0;
@@ -37,6 +37,18 @@ public class ParseNumbersInFile {
 		//Get the highest and lowest number.
 		Integer max = Collections.max(numbers);
 		System.out.println("Max = " + max);
+		
+		//Get even numbers.
+		ArrayList<Integer> evens = new ArrayList<>();
+		for(Integer n : numbers) {
+			if(n % 2 == 0) {
+				evens.add(n);
+			}
+		}
+		
+		System.out.println("Evens = " + evens);
+		
+		
 
 	}
 
