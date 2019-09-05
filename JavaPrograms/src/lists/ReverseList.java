@@ -21,8 +21,7 @@ public class ReverseList {
 	static public void main(String something []) {
 		
 		ReverseList rl = new ReverseList(); //we have to create this object so that we can use above method
-		
-		ArrayList<String> wordsList = new ArrayList<String>(Arrays.asList("Anna", "Manna", "Xasha", "Kola", "Zona"));//this is the list we will reverse
+		ArrayList<String> wordsList = new ArrayList<String>(Arrays.asList("Anna", "Manna", "Xasha", "Kola", "Zona")); //This is the list we will reverse
 		ArrayList<String> result = rl.reverse(wordsList);
 		System.out.println(result);
 		
