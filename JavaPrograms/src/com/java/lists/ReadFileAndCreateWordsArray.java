@@ -1,4 +1,4 @@
-package lists;
+package com.java.lists;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class ReadFileAndCreateWordsArray {
 	public static void main(String ... ray) throws FileNotFoundException {
 		
-		Scanner scan = new Scanner(new File("/Users/ry/git/JavaPrograms/JavaPrograms/src/lists/textfile.txt"));
+		Scanner scan = new Scanner(new File("/Users/ry/git/JavaPrograms/JavaPrograms/src/com.java.lists/textfile.txt"));
 		
 		String[] words = new String[10]; //Making size = 10 because there 10 words in the file.
 		int index = 0;

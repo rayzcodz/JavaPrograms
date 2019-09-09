@@ -1,4 +1,4 @@
-package lists;
+package com.java.lists;
 
 /*
  * Our goal is to list birthdays (M, D i.e 5, 1; 10, 2; 3, 4) format 
@@ -34,13 +34,13 @@ public class CalendarDate implements Comparable<CalendarDate> {
 		}
 	}
 	
-	public int getMonth() {
-		return month;
-	}
-	
-	public int getDay() {
-		return day;
-	}
+//	public int getMonth() {
+//		return month;
+//	}
+//	
+//	public int getDay() {
+//		return day;
+//	}
 	
 	@Override
 	public String toString() {

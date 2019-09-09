@@ -1,4 +1,4 @@
-package lists;
+package com.java.lists;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -13,7 +13,7 @@ public class ReadFileAndCreateWordsList {
 		Scanner scan = null;
 		
 		try {
-			scan = new Scanner(new File("/Users/ry/git/JavaPrograms/JavaPrograms/src/lists/textfile.txt"));
+			scan = new Scanner(new File("/Users/ry/git/JavaPrograms/JavaPrograms/src/com.java.lists/textfile.txt"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
